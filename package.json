@@ -1,0 +1,28 @@
+{
+  "name": "fish_game",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+  	"start": "node server.js --env=dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuk",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "serve-static": "^1.10.2"
+  },
+  "dependencies": {
+    "serve-static": "^1.10.2",
+    "express": "^4.13.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yingyuk/game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yingyuk/game/issues"
+  },
+  "homepage": "https://github.com/yingyuk/game#readme",
+  "description": ""
+}

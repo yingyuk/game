@@ -1,0 +1,36 @@
+/*
+* @Author: Yuk
+* @Date:   2016-04-30 16:47:41
+* @Last Modified by:   Yuk
+* @Last Modified time: 2016-05-07 10:51:30
+*/
+
+body {
+  padding-top: 10px;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#all-canvas {
+  position: relative;
+  height: 600px;
+}
+
+#canvasBg,
+#canvasFish {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#canvasFish {
+  z-index: 1;
+}
+
+#canvasBg {
+  z-index: 0;
+}
