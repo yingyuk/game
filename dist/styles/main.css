@@ -1,0 +1,1 @@
+body{padding-top:10px}.container{width:800px;height:600px;margin:0 auto}#all-canvas{position:relative;height:600px}#canvasBg,#canvasFish{position:absolute;bottom:0;left:0}#canvasFish{z-index:1}#canvasBg{z-index:0}
